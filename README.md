@@ -1,6 +1,6 @@
 # NodeNotFound
 Node.js server configured as a maintenance page for serving from something like DigitalOcean
-This is configured to run in the background with the `forever` package so:
+This is configured to run in the background with the <a href="https://www.npmjs.com/package/forever"> `forever` </a> package so:
 `npm install -g forever`
 
 Once you have forever installed and this repo cloned:
