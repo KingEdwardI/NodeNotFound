@@ -4,7 +4,7 @@
   "description": "A node server to run in place of an app out of service",
   "main": "serveError.js",
   "scripts": {
-    "start": "forever serveError.js"
+    "start": "node serveError.js"
   },
   "dependencies": {
     "method-override": "^1.0.0",
