@@ -5,7 +5,7 @@ var express = require('express'),
   errorHandler = require('errorhandler'),
   methodOverride = require('method-override'),
   fs = require('fs'),
-  port = parseInt(process.env.PORT, 10) || 8080;
+  port = 80;
 
 app.set('views', __dirname + '/public');
 app.use(morgan('combined'));
